@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>China Town</h1>
+        <img class="lantern left" src="assets/img/lantern.svg" alt="">
+        <img class="lantern right" src="assets/img/lantern.svg" alt="">
+    </header>
+    <main>
+        <div class="house">
+            <img src="assets/img/roof.svg" class="roof" alt="">
+            <div class="block">
+                <div class="window">
+                    <h2>Chef</h2>
+                    <img src="assets/img/chef.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="house">
+            <img src="assets/img/roof.svg" class="roof" alt="">
+            <div class="block">
+                <div class="window">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li>CONGEE</li>
+                        <li>SHOW MEIN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="order">
+        <h2>ORDER</h2>
+        <form id="order-form">
+            <label for="dish">Dish:</label>
+            <input id="dish" required type="text" placeholder="DISH:">
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+            <label for="address">Adress:</label>
+            <input id="adress" type="text">
+            <label for="tel">Phone:</label>
+            <input id="tel" type="tel" placeholder="+380000000000">
+            <input type="submit" id="submit" value="Order">
+        </form>
+        <table id="order-table">
+            <tr>
+                <th>Dish</th>
+                <th>Time</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Download</th>
+            </tr>
+        </table>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
